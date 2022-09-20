@@ -1,0 +1,173 @@
+:root {
+    --clr10: #22C55E;
+    --clr30: #27272A;
+    --clr60: #9CA3AF;
+    --clr-white: #FFFFFF;
+    --clr-black: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    position: fixed;
+    background-color: var(--clr-white);
+    width: 100%;
+}
+
+header::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    box-shadow: 0 0 8px var(--clr-black);
+    z-index: -1;
+}
+
+main {
+    padding: 1em;
+    padding-top: 4.8em;
+}
+
+footer {
+    padding: 1em;
+    background-color: var(--clr30);
+    color: var(--clr-white);
+}
+
+h1 {
+    background-image: linear-gradient(var(--clr10), var(--clr10));
+    background-position: left bottom;
+    background-size: 3em 4px;
+    background-repeat: no-repeat;
+    padding-bottom: 0.4em;
+}
+
+ul {
+    margin: 0;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    color: var(--clr-black);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.brand > img {
+    padding: 0.4em 0.8em 1em 0.4em;
+    height: 2.4em;
+    font-size: initial;
+}
+
+#menu {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    left: 100vw;
+    top: 0;
+    background-color: var(--clr-white);
+    transition: left 0.2s;
+}
+
+#menu.active {
+    left: 0vw;
+}
+
+#menu__toggle {
+    width: 2em;
+    height: 0.8em;
+    cursor: pointer;
+    position: relative;
+}
+
+#menu__toggle > span {
+    background-color: var(--clr-black);
+    width: 100%;
+    height: 1px;
+    display: block;
+    border-radius: 1px;
+    position: absolute;
+}
+
+#menu__toggle > span:first-of-type {
+    top: 0;
+    transition: rotate 0.4s, height 0.4s;
+}
+
+#menu__toggle > span:not(:first-of-type):not(:last-of-type) {
+    top: calc(0.4em - 1px);
+    transition: opacity 0.2s, width 0.2s;
+}
+
+#menu__toggle > span:last-of-type {
+    bottom: 0;
+    transition: rotate 0.4s, height 0.4s;
+}
+
+#menu__toggle:hover > span:not(:first-of-type):not(:last-of-type) {
+    top: calc(0.4em - 1px);
+    width: 75%;
+}
+
+#menu__toggle.active > span:first-of-type {
+    rotate: 45deg;
+    top: 5px;
+    height: 2px;
+}
+
+#menu__toggle.active > span:not(:first-of-type):not(:last-of-type) {
+    top: calc(0.4em - 1px);
+    opacity: 0;
+}
+
+#menu__toggle.active > span:last-of-type {
+    rotate: -45deg;
+    bottom: 5px;
+    height: 2px;
+}
+
+#to__top {
+    position: fixed;
+    right: calc(-3em - 4px);
+    bottom: 1em;
+    width: 3em;
+    aspect-ratio: 1 / 1;
+    border: 0;
+    background-color: var(--clr-white);
+    box-shadow: 0 0 4px var(--clr-black);
+    transition: right 0.5s;
+}
+
+#to__top::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    width: 50%;
+    height: 50%;
+    border-top: 2px solid var(--clr-black);
+    border-left: 2px solid var(--clr-black);
+    rotate: 45deg;
+    margin-top: 35%;
+    margin-left: 25%;
+}
+
+#to__top.show {
+    right: 1em;
+}
+
+#map > #map__canvas {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
