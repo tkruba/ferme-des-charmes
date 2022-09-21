@@ -10,7 +10,7 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header> <!--Sticky on mobile-->
+    <header> <!--Fixed on mobile-->
         <a href="index.html" class="brand">
             <img src="assets/img/logo.png" alt="Logo La Ferme des Charmes" class="brand__image">
             La Ferme des Charmes
@@ -20,12 +20,21 @@
                 <img>
             </picture> -->
         </a>
-        <button id="to__top"></button>
+        <div id="to__top"></div>
         <nav id="menu">
             <ul>
-                <li>A</li>
-                <li>B</li>
-                <li>C</li>
+                <li>
+                    <a href="#about">A propos</a>
+                </li>
+                <li>
+                    <a href="#products">Produits</a>
+                </li>
+                <li>
+                    <a href="#discover">Nous découvrir</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </nav>
         <div id="menu__toggle">
@@ -134,7 +143,7 @@
 
     <footer>
         <div id="map">
-            <iframe id="map__canvas" src="https://maps.google.com/maps?q=4%20Route%20de%20Champcharme&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+            <iframe id="map__canvas" src="https://maps.google.com/maps?q=4%20Route%20de%20Champcharme&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
         </div>
 
         <div id="contact"> <!-- Contacts -->
