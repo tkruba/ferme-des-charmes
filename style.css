@@ -8,9 +8,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        
-    }
+    :root {}
 }
 
 body {
@@ -25,6 +23,7 @@ header {
     position: fixed;
     background-color: var(--clr-white);
     width: 100%;
+    z-index: 3;
 }
 
 header::after {
@@ -56,6 +55,8 @@ h1 {
 
 ul {
     margin: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .brand {
@@ -159,7 +160,7 @@ ul {
     height: 2px;
 }
 
-#menu__toggle.active > span:not(:first-of-type):not(:last-of-type) {
+#menu__toggle.active  >span:not(:first-of-type):not(:last-of-type) {
     opacity: 0;
 }
 
@@ -215,18 +216,18 @@ ul {
     border: none;
 }
 
-ol {
-    padding: 0;
+#programmation > h2 {
+    margin-top: 0;
 }
 
-ol > li:last-of-type > .card {
+ul > li:last-of-type > .card {
     margin: 0;
 }
 
 .card {
     background-color: var(--clr-white);
     box-shadow: 0 0 8px var(--clr-black);
-    border-radius: 0.5em;
+    border-radius: 4px;
     margin-bottom: 1.4em;
 }
 
@@ -253,4 +254,122 @@ ol > li:last-of-type > .card {
 
 .card > .card__mid > p {
     margin: 0;
+}
+
+footer li {
+    line-height: 1.4;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--clr10);
+    position: relative;
+    z-index: 1;
+}
+
+footer a::after {
+    content: '';
+    inset: 0;
+    position: absolute;
+    background-image: linear-gradient(var(--clr10), var(--clr10));
+    background-position: left bottom;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+footer li:hover a::after {
+    opacity: 1;
+}
+
+footer li > i {
+    transition: color 0.4s;
+}
+
+footer li:hover > i {
+    color: var(--clr10);
+}
+
+@media (768px <= width) {
+
+    body {
+        background-color: var(--clr-white);
+    }
+
+    .brand {
+        flex: 1;
+        justify-content: center;
+        margin-left: 1em;
+    }
+
+    #menu__toggle {
+        margin-left: auto;
+        margin-right: 1em;
+    }
+
+    #programmation > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #programmation > ul > li {
+        flex-basis: calc(50% - 0.7em);
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: 
+            "a . b ."
+            "a . c .";
+    }
+
+    #map {
+        grid-area: a;
+        grid-row: span 3;
+    }
+
+    #contact {
+        grid-area: b;
+    }
+
+    #network {
+        grid-area: c;
+        margin-top: 2em;
+    }
+}
+
+@media (1440px <= width) {
+
+    #programmation > ul > li {
+        flex-basis: calc(25% - 0.7em);
+    }
+
+    footer {
+        grid-template-areas: "a a a a a b c";
+    }
+
+    footer li {
+        line-height: 1.8;
+    }
+    
+
+    #map > #map__canvas {
+        aspect-ratio: 16 / 4;
+    }
+
+    #contact {
+        margin-left: 2em;
+        width: fit-content;
+    }
+
+    #network {
+        margin-top: 0;
+    }
 }
