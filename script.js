@@ -1,10 +1,11 @@
-
+let body = document.body;
 let menuToggle = document.getElementById('menu__toggle');
 let menu = document.getElementById('menu');
 
 const changeMenuState = () => {
     menuToggle.classList.toggle('active');
     menu.classList.toggle('active');
+    body.classList.toggle('no-scroll')
 };
 
 menuToggle.addEventListener('click', event => {

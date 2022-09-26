@@ -16,6 +16,10 @@ body {
     padding: 0;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -65,6 +69,9 @@ ul {
     color: var(--clr-black);
     text-decoration: none;
     font-size: 1.3em;
+    flex: 1;
+    justify-content: center;
+    margin-left: 1em;
 }
 
 .brand > img {
@@ -106,9 +113,7 @@ ul {
 }
 
 #menu > ul > li:hover {
-    padding: 0.5em 0;
     background-color: var(--clr10);
-    font-size: 1.5em;
 }
 
 #menu > ul > li:hover > a {
@@ -124,6 +129,8 @@ ul {
     height: 0.8em;
     cursor: pointer;
     position: relative;
+    margin-left: auto;
+    margin-right: 1em;
 }
 
 #menu__toggle > span {
@@ -302,17 +309,6 @@ footer li:hover > i {
         background-color: var(--clr-white);
     }
 
-    .brand {
-        flex: 1;
-        justify-content: center;
-        margin-left: 1em;
-    }
-
-    #menu__toggle {
-        margin-left: auto;
-        margin-right: 1em;
-    }
-
     #programmation > ul {
         display: flex;
         flex-wrap: wrap;
@@ -346,6 +342,40 @@ footer li:hover > i {
 }
 
 @media (1440px <= width) {
+
+    .brand {
+        flex: none;
+    }
+
+    #menu__toggle {
+        display: none;
+    }
+
+    #menu {
+        position: initial;
+        width: 100%;
+        height: auto;
+        background-color: initial;
+    }
+
+    #menu > ul {
+        display: flex;
+        margin-top: 0;
+    }
+
+    #menu > ul > li {
+        font-size: initial;
+        padding: 0.5em 2em;
+    }
+
+    #menu > ul > li > a {
+        border-bottom: 2px solid var(--clr10);
+        transition: border-bottom 0.4s;
+    }
+
+    #menu > ul > li:hover > a {
+        border-bottom: 2px solid var(--clr-white);
+    }
 
     #programmation > ul > li {
         flex-basis: calc(25% - 0.7em);
