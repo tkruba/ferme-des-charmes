@@ -1,5 +1,6 @@
 <!DOCTYPE html> <!-- https://lafermedescharmes.jimdofree.com/ -->
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,13 @@
 
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-
-    <link rel="stylesheet" href="assets/icons/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/icons/css/brands.css">
-    <link rel="stylesheet" href="assets/icons/css/solid.css">
+    <script src="https://kit.fontawesome.com/289f71a5e7.js" crossorigin="anonymous" defer></script>
+    <script src="carousel.js"></script>
 </head>
+
 <body>
-    <header> <!--Fixed on mobile-->
+    <header>
+        <!--Fixed on mobile-->
         <a href="index.html" class="brand">
             <img src="assets/img/logo.png" alt="Logo La Ferme des Charmes" class="brand__image">
             La Ferme des Charmes
@@ -44,31 +45,38 @@
     </header>
 
     <main>
-        <section id="about"> <!-- A propos -->
+        <section id="about">
+            <!-- A propos -->
             <h1>La Ferme des Charmes</h1>
             <p>
                 Spécialisée dans la fabrication de cidre bouché, jus de pommes, ratafia, confitures et gelées.
             </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facilis accusamus nam mollitia molestias hic, magnam placeat nesciunt magni. Est doloremque voluptatum quaerat eligendi amet vero explicabo a! Repellat, accusantium.
+            <p class="text-red-600">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident facilis accusamus nam mollitia
+                molestias hic, magnam placeat nesciunt magni. Est doloremque voluptatum quaerat eligendi amet vero
+                explicabo a! Repellat, accusantium.
             </p>
         </section>
 
-        <section id="products"> <!-- Nos produits -->
+        <section id="products">
+            <!-- Nos produits -->
             <h1>Nos produits</h1>
             <p>
                 Découvrez ici les divers Cidres, Jus et autres productions de la Ferme des Charmes.
             </p>
-            <!-- Carroussel produits ? PHP ???? -->
+            <div id="product__carousel">
+            </div>
         </section>
 
-        <section id="discover"> <!-- Nous découvrir -->
+        <section id="discover">
+            <!-- Nous découvrir -->
             <h1>Découvrir la Ferme des Charmes</h1>
             <p>
-                Vous souhaitez en apprendre plus sur notre histoire, ou simplement déguster nos productions ? N'hésitez pas à venir nous visiter !
+                Vous souhaitez en apprendre plus sur notre histoire, ou simplement déguster nos productions ? N'hésitez
+                pas à venir nous visiter !
             </p>
             <div id="programmation">
-            <h2>Programme des visites:</h2>
+                <h2>Programme des visites:</h2>
                 <ul>
                     <li>
                         <div class="card">
@@ -76,8 +84,10 @@
                                 <h3>Pommiers haute tige</h3>
                             </div>
                             <div class="card__mid">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta, debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus, beatae veniam nemo dolores, reiciendis ex molestias.
+                                <p class="text-red-600">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta,
+                                    debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus,
+                                    beatae veniam nemo dolores, reiciendis ex molestias.
                                 </p>
                             </div>
                             <div class="card__bot"></div>
@@ -89,8 +99,10 @@
                                 <h3>Pommiers basse tige</h3>
                             </div>
                             <div class="card__mid">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta, debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus, beatae veniam nemo dolores, reiciendis ex molestias.
+                                <p class="text-red-600">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta,
+                                    debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus,
+                                    beatae veniam nemo dolores, reiciendis ex molestias.
                                 </p>
                             </div>
                             <div class="card__bot"></div>
@@ -102,8 +114,10 @@
                                 <h3>Notre cave</h3>
                             </div>
                             <div class="card__mid">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta, debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus, beatae veniam nemo dolores, reiciendis ex molestias.
+                                <p class="text-red-600">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta,
+                                    debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus,
+                                    beatae veniam nemo dolores, reiciendis ex molestias.
                                 </p>
                             </div>
                             <div class="card__bot"></div>
@@ -115,8 +129,10 @@
                                 <h3>Le pressoir</h3>
                             </div>
                             <div class="card__mid">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta, debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus, beatae veniam nemo dolores, reiciendis ex molestias.
+                                <p class="text-red-600">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta,
+                                    debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus,
+                                    beatae veniam nemo dolores, reiciendis ex molestias.
                                 </p>
                             </div>
                             <div class="card__bot"></div>
@@ -128,8 +144,10 @@
                                 <h3>Dégustation</h3>
                             </div>
                             <div class="card__mid">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta, debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus, beatae veniam nemo dolores, reiciendis ex molestias.
+                                <p class="text-red-600">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam a excepturi dicta,
+                                    debitis quaerat deserunt autem facere pariatur alias totam quisquam quia doloribus,
+                                    beatae veniam nemo dolores, reiciendis ex molestias.
                                 </p>
                             </div>
                             <div class="card__bot"></div>
@@ -141,12 +159,15 @@
     </main>
 
     <footer>
-        <div id="map"> <!-- Carte / Emplacement -->
-            <iframe id="map__canvas" src="https://maps.google.com/maps?q=4%20Route%20de%20Champcharme&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
+        <div id="map">
+            <!-- Carte / Emplacement -->
+            <iframe id="map__canvas"
+                src="https://maps.google.com/maps?q=4%20Route%20de%20Champcharme&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
         </div>
 
-        <div id="contact"> <!-- Contacts -->
-            <p>Nous contacter</p>
+        <div id="contact">
+            <!-- Contacts -->
+            <p>Nous contacter:</p>
             <ul>
                 <li>
                     <i class="fa-solid fa-phone"></i>
@@ -159,8 +180,9 @@
                 <li>Siret: 500 784 319 000 13</li>
             </ul>
         </div>
-        <div id="network"> <!-- Réseaux sociaux -->
-            <p>Nos réseaux</p>
+        <div id="network">
+            <!-- Réseaux sociaux -->
+            <p>Nos réseaux:</p>
             <ul>
                 <li>
                     <i class="fa-brands fa-instagram"></i>
@@ -170,4 +192,5 @@
         </div>
     </footer>
 </body>
+
 </html>

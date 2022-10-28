@@ -2,11 +2,7 @@
 
 Site web pour la Ferme des Charmes (actuellement https://lafermedescharmes.jimdofree.com/)
 
-## To-Do (mis à jour le 21/09/2022)
-
-- Stylisation
-
-- Ajout d'images
+## To-Do (mis à jour le 28/10/2022)
 
 - Remplacement des LoremIpsum
 
@@ -14,6 +10,9 @@ Site web pour la Ferme des Charmes (actuellement https://lafermedescharmes.jimdo
 ## Langages utilisés
 
 - HTML
-- CSS
 - Javascript
+
+## Framework
+
+- TailwindCSS
 

@@ -1,0 +1,3 @@
+Format des images produits → .webp (https://convertio.co/fr/png-webp/ ou https://onlineconvertfree.com/fr/convert-format/png-to-webp/)
+
+Taille des images produits → 1152 l x 1728 h
