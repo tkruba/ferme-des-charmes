@@ -4306,6 +4306,29 @@ main section:not(:first-of-type) {
   filter: drop-shadow(15px 0px 5px rgb(0 0 0 / 0.3));
 }
 
+#products .card > .card__bot {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+#products .card > .card__bot > p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;

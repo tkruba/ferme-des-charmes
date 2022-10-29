@@ -106,7 +106,9 @@ function changeProductsToSM() {
                             <div class="card__mid">
                                 <img src="./assets/img/products/${l.image}" alt="${l.alt}">
                             </div>
-                            <div class="card__bot"></div>
+                            <div class="card__bot">
+                                <p>${l.size}</p>
+                            </div>
                         </div>
                     </li>`), '')}
                 </ul>
@@ -141,7 +143,9 @@ function changeProductsToMD() {
                                 <div class="card__mid">
                                     <img src="./assets/img/products/${l.image}" alt="${l.alt}">
                                 </div>
-                                <div class="card__bot"></div>
+                                <div class="card__bot">
+                                    <p>${l.size}</p>
+                                </div>
                             </div>
                         `), '')}
                     </ul>
@@ -177,7 +181,9 @@ function changeProductsToXL() {
                                 <div class="card__mid">
                                     <img src="./assets/img/products/${l.image}" alt="${l.alt}">
                                 </div>
-                                <div class="card__bot"></div>
+                                <div class="card__bot">
+                                    <p>${l.size}</p>
+                                </div>
                             </div>
                         `), '')}
                     </ul>

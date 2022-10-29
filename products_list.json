@@ -2,86 +2,103 @@
     "cidre_bouche-1": {
         "name": "Cidre Bouché",
         "image": "cidre_bouche-1.webp",
-        "alt": "Cidre Bouché du Pays d'Othe"
+        "alt": "Cidre Bouché du Pays d'Othe",
+        "size": "75cl"
     },
     "cidre_bouche-2": {
         "name": "Cidre Bouché",
         "image": "cidre_bouche-2.webp",
-        "alt": "Cidre Bouché du Pays d'Othe"
+        "alt": "Cidre Bouché du Pays d'Othe",
+        "size": "75cl"
     },
     "cidre_prestige": {
         "name": "Cidre Prestige",
         "image": "cidre_prestige.webp",
-        "alt": "Cidre Prestige du Pays d'Othe"
+        "alt": "Cidre Prestige du Pays d'Othe",
+        "size": "75cl"
     },
     "jus_pomme_cassis": {
         "name": "Jus de Pomme Cassis",
         "image": "jus_pomme_cassis.webp",
-        "alt": "Jus de Pomme Cassis du Pays d'Othe"
+        "alt": "Jus de Pomme Cassis du Pays d'Othe",
+        "size": "75cl"
     },
     "jus_pomme_cerise": {
         "name": "Jus de Pomme Cerise",
         "image": "jus_pomme_cerise.webp",
-        "alt": "Jus de Pomme Cerise du Pays d'Othe"
+        "alt": "Jus de Pomme Cerise du Pays d'Othe",
+        "size": "75cl"
     },
     "jus_pomme_framboise-1": {
         "name": "Jus de Pomme Framboise",
         "image": "jus_pomme_framboise-1.webp",
-        "alt": "Jus de Pomme Framboise du Pays d'Othe"
+        "alt": "Jus de Pomme Framboise du Pays d'Othe",
+        "size": "75cl"
     },
     "jus_pomme_framboise-2": {
         "name": "Jus de Pomme Framboise",
         "image": "jus_pomme_framboise-2.webp",
-        "alt": "Jus de Pomme Framboise du Pays d'Othe"
+        "alt": "Jus de Pomme Framboise du Pays d'Othe",
+        "size": "33cl"
     },
     "jus_pomme_petillant": {
         "name": "Jus de Pomme Pétillant",
         "image": "jus_pomme_petillant.webp",
-        "alt": "Jus de Pomme Pétillant du Pays d'Othe"
+        "alt": "Jus de Pomme Pétillant du Pays d'Othe",
+        "size": "75cl"
     },
     "jus_pomme-1": {
         "name": "Jus de Pomme",
         "image": "jus_pomme-1.webp",
-        "alt": "Jus de Pomme du Pays d'Othe"
+        "alt": "Jus de Pomme du Pays d'Othe",
+        "size": "75cl"
     },
     "jus_pomme-2": {
         "name": "Jus de Pomme",
         "image": "jus_pomme-2.webp",
-        "alt": "Jus de Pomme du Pays d'Othe"
+        "alt": "Jus de Pomme du Pays d'Othe",
+        "size": "33cl"
     },
     "ratafia_cerise-1": {
         "name": "Ratafia de Cerise",
         "image": "ratafia_cerise-1.webp",
-        "alt": "Ratafia de Cerise du Pays d'Othe"
+        "alt": "Ratafia de Cerise du Pays d'Othe",
+        "size": "70cl"
     },
     "ratafia_cerise-2": {
         "name": "Ratafia de Cerise",
         "image": "ratafia_cerise-2.webp",
-        "alt": "Ratafia de Cerise du Pays d'Othe"
+        "alt": "Ratafia de Cerise du Pays d'Othe",
+        "size": "50cl"
     },
     "ratafia_cidre-1": {
         "name": "Ratafia de Cidre",
         "image": "ratafia_cidre-1.webp",
-        "alt": "Ratafia de Cidre du Pays d'Othe"
+        "alt": "Ratafia de Cidre du Pays d'Othe",
+        "size": "50cl"
     },
     "ratafia_cidre-2": {
         "name": "Ratafia de Cidre",
         "image": "ratafia_cidre-2.webp",
-        "alt": "Ratafia de Cidre du Pays d'Othe"
+        "alt": "Ratafia de Cidre du Pays d'Othe",
+        "size": "33cl"
     },
     "ratafia_cidre-3": {
         "name": "Ratafia de Cidre",
         "image": "ratafia_cidre-3.webp",
-        "alt": "Ratafia de Cidre du Pays d'Othe"
+        "alt": "Ratafia de Cidre du Pays d'Othe",
+        "size": "50cl"
     },
     "ratafia_cidre-4": {
         "name": "Ratafia de Cidre",
         "image": "ratafia_cidre-4.webp",
-        "alt": "Ratafia de Cidre du Pays d'Othe"
+        "alt": "Ratafia de Cidre du Pays d'Othe",
+        "size": "20cl"
     },
     "vinaigre_cidre": {
         "name": "Vinaigre de Cidre",
         "image": "vinaigre_cidre.webp",
-        "alt": "Vinaigre de Cidre du Pays d'Othe"
+        "alt": "Vinaigre de Cidre du Pays d'Othe",
+        "size": "75cl"
     }
 }
