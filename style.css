@@ -4299,7 +4299,7 @@ main section:not(:first-of-type) {
 }
 
 #products .card {
-  background-image: url('./assets/img/products_bg.jpg');
+  background-image: url('./assets/img/products_bg.webp');
 }
 
 #products .card img {
