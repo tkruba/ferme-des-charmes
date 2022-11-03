@@ -14,9 +14,10 @@ Site web pour la Ferme des Charmes (actuellement https://lafermedescharmes.jimdo
 ## Langages utilisés
 
 - HTML
+- CSS
 - Javascript
 
-## Framework
+## Préprocesseur CSS
 
 - TailwindCSS
 
